@@ -1,0 +1,99 @@
+
+
+/* My Code */
+*{
+  box-sizing: border-box;
+}
+.container{
+  padding: 5px 0px;
+  margin: 0 auto;
+}
+body{
+  font-family: 'Cairo',sans-serif;
+  margin: 0;
+}
+/* Header */
+.d-flex
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Sign Up */
+.grand{
+  background-image: url("../../../back.jpg");
+  background-size: cover;
+  height: calc(100vh - 80.933px);
+}
+.parent{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent form{
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 /10%);
+  border-radius: 6px;
+background-color: rgba(245, 245, 245, 0.85);
+}
+input{
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+input:focus{
+  border: 2px solid #0459fd;
+}
+input::placeholder{
+  color: rgba(0, 0, 0, 0.3);
+}
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.register button,
+.register-nav{
+  outline: none;
+  border: none;
+  background-color: #0459fd;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  border: 2px solid white;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+.register-nav:hover,
+.register button:hover{
+  background-color: white;
+  border: 2px solid #0459fd;
+  color: #0459fd;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+  margin-top: 0 ;
+}
+.link{
+  text-decoration: none;
+font-size: 25px;
+margin-right: 15px;
+}
+
+.logo img{
+  max-width: 130px;
+}
